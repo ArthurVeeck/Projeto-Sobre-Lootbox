@@ -27,7 +27,7 @@ header img{
 .a1{
     font-weight:700;
     font-size: 30px;
-    color: gold;
+    color: var(--gold)
 }
 
 nav{
@@ -88,6 +88,7 @@ h1, h2{
 
 .corletra{
     color:var(--gold)
+    
 }
 
 .container3 {
@@ -105,6 +106,17 @@ h1, h2{
     width:49%;
     border-radius:10px;
     border:4px solid rgba(255,255,255,0.06);
+}
+
+.Imagens2{
+    width:49%;
+    border-radius:10px;
+    border:4px solid rgba(255,255,255,0.06);
+    transition: 0.3s;
+}
+
+.Imagens2:hover{
+    transform: scale(1.2);
 }
 
 footer{
