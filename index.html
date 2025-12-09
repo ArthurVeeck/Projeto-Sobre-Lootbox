@@ -4,17 +4,25 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="style.css">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
   <title>A lógica de probabilidade e "sorte" em Loot Boxes e sistemas Gacha</title>
   
 </head>
 <body>
   <header>
-    <img src="Imagens/LootBox.png" alt=""/>
+    <img src="Imagens/LootBox.png" alt="" class="animate__animated animate__bounceInLeft"/>
     <div>
-      <div class="a1">A lógica de probabilidade e "sorte" em Loot Boxes e sistemas Gacha</div>
+      <div class="a1 , animate__animated animate__bounceInDown">A lógica de probabilidade e "sorte" em Loot Boxes e sistemas Gacha</div>
 
     </div>
-    <nav>
+    <nav class="animate__animated animate__bounceInDown">
       <a href="#home">Home</a>
       <a href="#logica">Fluxograma</a>
       <a href="#dados">Banco De Dados</a>
@@ -23,9 +31,9 @@
     </nav>
     <div class="menu">☰</div>
   </header>
-
+  
   <main class="container">
-    <section id="home" class="card">
+    <section id="home" class="card" data-aos="zoom-in">
       <h1>A lógica de probabilidade e "sorte" em Loot Boxes e sistemas Gacha.</h1>
       <p>Este site apresenta a investigação da funcionalidade: 
       <strong>Abrir Loot Box / Rodar Gacha</strong>
@@ -35,24 +43,23 @@
       </div>
     </section>
 
-    <section id="logica" class="card2">
+    <section id="logica" class="card2" data-aos="zoom-in">
       <h2>A Lógica (Fluxograma)</h2>
-      <img src="Imagens/Logica de Probabilidade.png" alt="Fluxograma" class="Imagens" />
+      <img src="Imagens/Logica de Probabilidade.png" alt="Fluxograma" class="Imagens" data-aos="fade-up">
     </section>
 
-    <section id="dados" class="card2">
-
-    <h2>O Modelo De Dados (Logico)</h2>
-    <img src="Imagens/BancoDeDados.png" alt="" class="Imagens" />
-    <h2>O Modelo De Dados (Conceitual)</h2>
-    <img src="Imagens/ModeloDeDados.png" alt="" class="Imagens">
+    <section id="dados" class="card2" data-aos="zoom-in">
+      
+    <h2>O Modelo De Dados (Logico)</h2> <h2>O Modelo De Dados (Conceitual)</h2>
+    <img src="Imagens/BancoDeDados.png" alt="" class="Imagens" data-aos="fade-right" />
+    <img src="Imagens/ModeloDeDados.png" alt="" class="Imagens" data-aos="fade-left" >
 
     </section>
 
     <div class="grid">
       <div>
 
-        <section id="visual" class="card">
+        <section id="visual" class="card" data-aos="zoom-in">
           <h2>Resumo Textual</h2>
           <p>Os jogos com <strong>loot boxes</strong> são sistemas em que o jogador pode adquirir itens, 
             personagens ou skins, dependendo da proposta do jogo. Essas caixas são geralmente compradas com 
@@ -80,7 +87,7 @@
         </section>
       </div>
 
-      <aside class="card">
+      <aside class="card" data-aos="fade-left">
         <h2>Análise de Impacto</h2>
         <p><strong>Gatilhos usadas pelas Loot Boxes e sistemas Gacha:</strong></p>
         <ul>
@@ -96,7 +103,7 @@
       </aside>
     </div>
 
-    <section id="sobre" class="card2">
+    <section id="sobre" class="card3" data-aos="zoom-in">
       <h2>Sobre Nós</h2>
         <p><strong>Arthur da Silva Veeck</strong>
           <br/>arthur.silva.veeck@gmail.com<br/>
@@ -112,8 +119,14 @@
 
   <footer>
     <div class="container">
-      <div><p>&copy;2025 Nosso Site. Todos os direitos reservados.</p></div>
+      <div><p>&copy;2025 Logica de probabilidade em LootBox. Todos os direitos reservados.</p></div>
     </div>
   </footer>
 </body>
 </html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
